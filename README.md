@@ -1,14 +1,16 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24&height=220&section=header&text=Hi%20there,%20I'm%20Gaurav%20Ghodake%20👋&fontSize=42&fontAlignY=38&desc=IoT%20Developer%20%7C%20AI%20%26%20Gemini%20Integrations%20%7C%20Software%20Builder&descAlignY=58&descAlign=50" width="100%"/>
-
-  <!-- Typing Animated Subtitle -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=550&lines=Building+Smart+IoT+%26+Hardware+Solutions;Integrating+AI+%26+Gemini+for+Real-World+Impact;Exploring+Full-Stack+%26+Embedded+Systems;Solving+DSA+Problems+on+LeetCode" alt="Typing SVG" />
-  </a>
+  <!-- Native SVG Header Banner (Zero external server dependency, loads 100% reliably) -->
+  <img src="./header.svg" width="100%" alt="Gaurav Ghodake Banner" />
 
   <br/><br/>
+
+  <!-- Typing Animated Subtitle with extra width to prevent any text clipping -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=750&height=40&lines=Building+Smart+IoT+%26+Hardware+Solutions;Integrating+AI+%26+Gemini+for+Real-World+Impact;Exploring+Full-Stack+%26+Embedded+Systems;Solving+DSA+Problems+on+LeetCode" alt="Typing SVG" />
+  </a>
+
+  <br/>
 
   <!-- Social Badges -->
   <p align="center">
@@ -49,7 +51,7 @@ current_focus: Building intelligent IoT telemetry systems & vernacular smart app
 
 #### 💻 Programming & Core Languages
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,c,js,html,css" />
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,c,js,html,css" alt="Programming Languages" />
 </p>
 
 #### ⚡ IoT, Hardware & Microcontrollers
@@ -62,7 +64,7 @@ current_focus: Building intelligent IoT telemetry systems & vernacular smart app
 
 #### 🤖 AI, Frameworks & Development Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux" alt="Tools" />
   <img src="https://img.shields.io/badge/Google%20Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
 </p>
 
@@ -85,18 +87,18 @@ current_focus: Building intelligent IoT telemetry systems & vernacular smart app
 ### 📊 GitHub Activity & Statistics
 
 <div align="center">
-  <!-- GitHub Stats Card -->
-  <img src="https://github-readme-stats.vercel.app/api?username=gghodake740-hash&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Gaurav's GitHub Stats" height="160"/>
-  
-  <!-- Top Languages Card -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gghodake740-hash&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="160"/>
+  <!-- GitHub Streak Stats -->
+  <img src="https://streak-stats.demolab.com/?user=gghodake740-hash&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <br/>
 
 <div align="center">
-  <!-- GitHub Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gghodake740-hash&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <!-- GitHub Stats Card -->
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=gghodake740-hash&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Gaurav's GitHub Stats" height="160"/>
+  
+  <!-- Top Languages Card -->
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=gghodake740-hash&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="160"/>
 </div>
 
 ---
@@ -110,7 +112,3 @@ current_focus: Building intelligent IoT telemetry systems & vernacular smart app
 </picture>
 
 ---
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24&height=100&section=footer" width="100%"/>
-</p>

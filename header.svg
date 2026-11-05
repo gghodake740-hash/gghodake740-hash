@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D2FF" />
+      <stop offset="50%" stop-color="#3a7bd5" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+
+    <!-- Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Glowing Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+      <circle cx="0" cy="0" r="1.5" fill="rgba(56, 189, 248, 0.25)" />
+    </pattern>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="900" height="220" rx="16" fill="url(#bgGrad)" />
+  <rect width="900" height="220" rx="16" fill="url(#grid)" />
+
+  <!-- Outer Border -->
+  <rect width="898" height="218" x="1" y="1" rx="15" fill="none" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1.5" />
+
+  <!-- Top Accent Line -->
+  <path d="M 0 16 C 0 7 7 0 16 0 L 884 0 C 893 0 900 7 900 16 L 900 6 L 0 6 Z" fill="url(#accentGrad)" />
+
+  <!-- Subtle Glowing Orbs in Background -->
+  <circle cx="820" cy="50" r="80" fill="#9333ea" opacity="0.12" filter="url(#glow)" />
+  <circle cx="100" cy="180" r="70" fill="#00D2FF" opacity="0.1" filter="url(#glow)" />
+
+  <g transform="translate(50, 45)">
+    <!-- Terminal dots -->
+    <circle cx="0" cy="0" r="6" fill="#ef4444" opacity="0.8" />
+    <circle cx="18" cy="0" r="6" fill="#f59e0b" opacity="0.8" />
+    <circle cx="36" cy="0" r="6" fill="#10b981" opacity="0.8" />
+  </g>
+
+  <!-- Main Content -->
+  <g transform="translate(50, 95)">
+    <!-- Title -->
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">
+      Hi there, I'm <tspan fill="url(#textGrad)">Gaurav Ghodake</tspan> 👋
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#94a3b8" letter-spacing="0.2">
+      IoT Developer  •  AI &amp; Gemini Integrations  •  Software Builder
+    </text>
+
+    <!-- Tag Pills -->
+    <g transform="translate(0, 62)">
+      <!-- Pill 1: IoT -->
+      <rect x="0" y="0" width="130" height="28" rx="14" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+      <text x="65" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#38bdf8" text-anchor="middle">⚡ IoT &amp; Hardware</text>
+
+      <!-- Pill 2: Gemini AI -->
+      <rect x="142" y="0" width="135" height="28" rx="14" fill="rgba(192, 132, 252, 0.12)" stroke="rgba(192, 132, 252, 0.4)" stroke-width="1" />
+      <text x="209" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#c084fc" text-anchor="middle">🤖 Gemini &amp; AI</text>
+
+      <!-- Pill 3: Full-Stack -->
+      <rect x="289" y="0" width="125" height="28" rx="14" fill="rgba(52, 211, 153, 0.12)" stroke="rgba(52, 211, 153, 0.4)" stroke-width="1" />
+      <text x="351" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#34d399" text-anchor="middle">💻 Web &amp; Apps</text>
+
+      <!-- Pill 4: LeetCode -->
+      <rect x="426" y="0" width="130" height="28" rx="14" fill="rgba(251, 191, 36, 0.12)" stroke="rgba(251, 191, 36, 0.4)" stroke-width="1" />
+      <text x="491" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#fbbf24" text-anchor="middle">🧩 DSA &amp; Java</text>
+    </g>
+  </g>
+
+  <!-- Right side graphic / icon badge -->
+  <g transform="translate(775, 115)">
+    <circle cx="0" cy="0" r="42" fill="url(#bgGrad)" stroke="url(#accentGrad)" stroke-width="2" />
+    <!-- Microchip / Code icon representation -->
+    <rect x="-16" y="-16" width="32" height="32" rx="6" fill="rgba(56, 189, 248, 0.15)" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="0" cy="0" r="5" fill="#38bdf8" />
+    <line x1="-22" y1="-8" x2="-16" y2="-8" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="-22" y1="8" x2="-16" y2="8" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="16" y1="-8" x2="22" y2="-8" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="16" y1="8" x2="22" y2="8" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="-8" y1="-22" x2="-8" y2="-16" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="8" y1="-22" x2="8" y2="-16" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="-8" y1="16" x2="-8" y2="22" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="8" y1="16" x2="8" y2="22" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>
